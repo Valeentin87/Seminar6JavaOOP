@@ -12,6 +12,14 @@ public abstract class NoteTask {
     DecorateResultly decorateResultly; //переменная интерфейса, которая инкапсулирует переменное поведение различных
                                        //суб классов, позволяет реализовать метод decorate(), отражающий результат выполнения задачи
 
+    public void setHelply(Helply helply) {
+        this.helply = helply;
+    }
+
+    public void setDecorateResultly(DecorateResultly decorateResultly) {
+        this.decorateResultly = decorateResultly;
+    }
+
     public NoteTask(){
     }
     public void perfomHelp(){  //метод, реализующий полиморфизм интерфейса helply

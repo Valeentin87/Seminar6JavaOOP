@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfb2953-2017-4b79-9525-509530200868" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/DecorateGoShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/DecorateHomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/DecorateHouseWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/DecorateResultly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/HelpGoShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/HelpHomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/HelpHouseWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Helply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/NoteTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DecorateGoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecorateGoShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DecorateHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecorateHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DecorateHouseWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecorateHouseWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DecorateResultly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecorateResultly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/HelpGoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelpGoShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/HelpHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelpHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/HelpHouseWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelpHouseWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Helply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Helply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/NoteTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NoteTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="NotebookScheduler" />
@@ -75,10 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="NotebookScheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.model.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>

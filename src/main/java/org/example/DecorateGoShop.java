@@ -1,4 +1,4 @@
-package model;
+package org.example;
 
 public class DecorateGoShop implements DecorateResultly{
     @Override

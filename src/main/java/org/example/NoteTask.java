@@ -1,4 +1,7 @@
 package org.example;
+
+import java.util.Arrays;
+
 // класс NoteTask (Заметка-задача) позволяет описать задачу, в последующем будем её вводить в консоль, либо получать из
     // файла
 public abstract class NoteTask {
@@ -39,4 +42,10 @@ public abstract class NoteTask {
         decorateResultly.decorate();
     }
 
+    @Override
+    public String toString() {
+        return
+                id +"."+ topic + "---> " + formulation + " --->Выполнить до: " +
+                        Arrays.toString(timeCompletion) + " Статус выполнения: " + status;
+    }
 }

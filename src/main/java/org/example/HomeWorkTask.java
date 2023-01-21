@@ -1,4 +1,7 @@
 package org.example;
+
+import java.util.Arrays;
+
 // класс описывает заметку-задачу, которая даётся для выполнения домашнего задания ребенку
 public class HomeWorkTask extends NoteTask{
     String discipline; // название урока (математика, русский, физика....
@@ -20,5 +23,14 @@ public class HomeWorkTask extends NoteTask{
         this.nameBook = nameBook;
         this.page = page;
         this.exercise = exercise;
+    }
+
+    @Override
+    public String toString() {
+        return id +"."+ topic + "---> " + formulation + ". "+ discipline+ ". "+
+                nameBook+ ". "+ page+ ". "+ exercise +" --->Выполнить до: " +
+                Arrays.toString(timeCompletion) + " Статус выполнения: " + status;
+
+
     }
 }

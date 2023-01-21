@@ -1,4 +1,7 @@
-package org.example;
+package model.task;
+
+import model.decorateResultly.DecorateResultly;
+import model.helply.Helply;
 
 import java.util.Arrays;
 
@@ -7,11 +10,11 @@ import java.util.Arrays;
 public abstract class NoteTask {
    public int id; //номер заметки-задачи
    public String topic; //тематика задачи (задание по дому, дошка ребенка, поход в магазин)
-   String[] timeCompletion = new String[2]; // время, до которого надо выполнить
+   String timeCompletion; // время, до которого надо выполнить
    Boolean status; //статус выполнения задачи
    String formulation; //формулировка задачи
 
-    public NoteTask(int id, String topic, String[] timeCompletion, Boolean status, String formulation) {
+    public NoteTask(int id, String topic, String timeCompletion, Boolean status, String formulation) {
         this.id = id;
         this.topic = topic;
         this.timeCompletion = timeCompletion;
@@ -46,6 +49,6 @@ public abstract class NoteTask {
     public String toString() {
         return
                 id +"."+ topic + "---> " + formulation + " --->Выполнить до: " +
-                        Arrays.toString(timeCompletion) + " Статус выполнения: " + status;
+                        timeCompletion + " Статус выполнения: " + status;
     }
 }

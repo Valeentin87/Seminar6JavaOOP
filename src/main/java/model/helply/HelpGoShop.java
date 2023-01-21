@@ -1,6 +1,8 @@
-package org.example;
+package model.helply;
 
-public class HelpGoShop implements Helply{
+import model.helply.Helply;
+
+public class HelpGoShop implements Helply {
     @Override
     public void help() {
         System.out.println("В магазине Вы можете купить товаров на сумму ");

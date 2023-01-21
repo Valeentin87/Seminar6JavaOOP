@@ -1,4 +1,4 @@
-package org.example;
+package model.decorateResultly;
 
 public class DecorateHouseWork implements DecorateResultly{
 

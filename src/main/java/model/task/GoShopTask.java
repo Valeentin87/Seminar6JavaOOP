@@ -1,4 +1,4 @@
-package org.example;
+package model.task;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ public class GoShopTask extends NoteTask{
 
     public GoShopTask(int id,
                       String topic,
-                      String[] timeCompletion,
+                      String timeCompletion,
                       Boolean status,
                       String formulation,
                       List<String> products) {
@@ -20,7 +20,7 @@ public class GoShopTask extends NoteTask{
     @Override
     public String toString() {
         return  id +"."+ topic + "---> " + formulation + ". Список продуктов: "+products+
-                " --->Выполнить до: " + Arrays.toString(timeCompletion) +
+                " --->Выполнить до: " + timeCompletion +
                 " Статус выполнения: " + status;
     }
 }

@@ -1,4 +1,4 @@
-package org.example;
+package model.decorateResultly;
 
 public class DecorateHomeWork implements DecorateResultly{
     @Override

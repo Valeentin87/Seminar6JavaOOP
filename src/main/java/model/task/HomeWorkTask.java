@@ -1,4 +1,4 @@
-package org.example;
+package model.task;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class HomeWorkTask extends NoteTask{
 
     public HomeWorkTask(int id,
                         String topic,
-                        String[] timeCompletion,
+                        String timeCompletion,
                         Boolean status,
                         String formulation,
                         String discipline,
@@ -28,8 +28,8 @@ public class HomeWorkTask extends NoteTask{
     @Override
     public String toString() {
         return id +"."+ topic + "---> " + formulation + ". "+ discipline+ ". "+
-                nameBook+ ". "+ page+ ". "+ exercise +" --->Выполнить до: " +
-                Arrays.toString(timeCompletion) + " Статус выполнения: " + status;
+                nameBook+ ". Страница: "+ page+ ".Упражнение: "+ exercise +" --->Выполнить до: " +
+                timeCompletion+ " Статус выполнения: " + status;
 
 
     }

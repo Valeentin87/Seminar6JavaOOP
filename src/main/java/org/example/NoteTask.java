@@ -2,11 +2,20 @@ package org.example;
 // класс NoteTask (Заметка-задача) позволяет описать задачу, в последующем будем её вводить в консоль, либо получать из
     // файла
 public abstract class NoteTask {
-   // public int id; //номер задачи
-   // public String topic; //тематика задачи
-   // String[] timeCompletion = new String[2];
-   // Boolean status; //статус выполнения задачи
-   // String formulation; //формулировка задачи
+   public int id; //номер заметки-задачи
+   public String topic; //тематика задачи (задание по дому, дошка ребенка, поход в магазин)
+   String[] timeCompletion = new String[2]; // время, до которого надо выполнить
+   Boolean status; //статус выполнения задачи
+   String formulation; //формулировка задачи
+
+    public NoteTask(int id, String topic, String[] timeCompletion, Boolean status, String formulation) {
+        this.id = id;
+        this.topic = topic;
+        this.timeCompletion = timeCompletion;
+        this.status = status;
+        this.formulation = formulation;
+    }
+
     Helply helply; //переменная интерфейса, которая инкапсулирует переменное поведение различных суб классов,
                    //позволяет реализовать по разному метод help (помощь при выполнении порученной задачи)
     DecorateResultly decorateResultly; //переменная интерфейса, которая инкапсулирует переменное поведение различных

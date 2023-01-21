@@ -1,6 +1,7 @@
 package org.example;
-
+// класс описывает задачу-заметку по выполнению задачи по дому
 public class HouseWorkTask extends NoteTask{
-    public HouseWorkTask(){
-           }
+    public HouseWorkTask(int id, String topic, String[] timeCompletion, Boolean status, String formulation) {
+        super(id, topic, timeCompletion, status, formulation);
+    }
 }
